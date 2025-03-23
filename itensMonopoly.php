@@ -3,7 +3,7 @@
 
 <div class="itens de jogo">
     <?php
-    $data = json_decode(file_get_contents('itens.json'), true);
+    $data = json_decode(file_get_contents('./json_data/itens.json'), true);
 
     foreach ($data['itens'] as $item) {
         echo '<div class="game-item">';
