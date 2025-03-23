@@ -1,0 +1,29 @@
+{
+  "itens": [
+    {
+      "nome": "Tabuleiro de Jogo",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/monopoly_tabuleiro.jpg"
+    },
+    {
+      "nome": "Peças de Jogador",
+      "descricao": "Diversas peças que os jogadores usam para se representar no tabuleiro.",
+      "imagem": "img/monopoly_pecasjogadores.jpg"
+    },
+    {
+      "nome": "Cartas",
+      "descricao": "Algumas das cartas disponíveis para compra no jogo.",
+      "imagem": "img/monopoly_cartas.jpg"
+    },
+    {
+      "nome": "Dinheiro",
+      "descricao": "Dinheiro do Monopoly usado para transações durante o jogo.",
+      "imagem": "img/monopoly_dinheiro.jpg"
+    },
+    {
+      "nome": "Dados",
+      "descricao": "Dois dados usados para determinar o número de espaços que um jogador se move.",
+      "imagem": "img/monopoly_dados.jpg"
+    }
+  ]
+}
