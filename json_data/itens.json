@@ -25,5 +25,32 @@
       "descricao": "Dois dados usados para determinar o número de espaços que um jogador se move.",
       "imagem": "img/monopoly_dados.jpg"
     }
+  ],
+  "xadrez":[
+    {
+      "nome": "Origens",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/monopoly_tabuleiro.jpg"
+    },
+    {
+      "nome": "Peças",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/monopoly_tabuleiro.jpg"
+    },
+    {
+      "nome": "Idade Média",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/monopoly_tabuleiro.jpg"
+    },
+    {
+      "nome": "Renascimento-Modernidade",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/monopoly_tabuleiro.jpg"
+    },
+    {
+      "nome": "Contemporaneidade",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/monopoly_tabuleiro.jpg"
+    }
   ]
 }
