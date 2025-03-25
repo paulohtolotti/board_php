@@ -29,7 +29,7 @@
   "xadrez":[
     {
       "nome": "Origens",
-      "descricao": "Não existe uma origem certa para o Xadrez, sua origem mais provavel foi no século VI d.c. na região da atual India, no entanto, pode ter surgido nas regiões chinesas ou ainda nas regiões persas. São consideradsos seus 'antecessores' o chaturanga e o Xiangqi ",
+      "descricao": "Não existe uma origem certa para o Xadrez, sua origem mais provavel foi no século VI d.c. na região da atual India, no entanto, pode ter surgido nas regiões chinesas ou ainda nas regiões persas. São consideradsos seus 'antecessores' o chaturanga e o Xiangqi.",
       "imagem": [
         "img/xadrez/chaturaji2.png",
         "img/xadrez/Chaturaji1.jpg"
@@ -42,53 +42,33 @@
     },
     {
       "nome": "Peões",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "descricao": "No xadrez clássico, existem 16 peões, sendo 8 de cada cor. O movimento inicial de um peão pode ser de uma ou duas casas para frente. Após o primeiro movimento, o peão só pode avançar uma casa por turno. Ele se movimenta apenas em linha reta e captura peças inimigas nas diagonais superiores. Quando um peão atinge o final do tabuleiro, ele pode ser promovido e trocado por qualquer peça disponível, normalmente do mesmo lado.",
       "imagem": "img/xadrez/peão.jfif"
     },
     {
       "nome": "Torres",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "descricao": "As torres podem movimentar-se em linha reta na horizontal e vertical por quantas casas desejar, ao todo são 4 torres, 2 para cada cor.",
       "imagem": "img/xadrez/torre1.jfif"
     },
     {
       "nome": "Cavalos",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "descricao": "Os cavalos são as únicas peças que podem pular outras peças, seu movimento é restrito a forma de um 'L'.",
       "imagem": "img/xadrez/cavalo.jfif"
     },
     {
       "nome": "Bispos",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "descricao": "Os bispos podem se mover pelas diagonais de mesma cor quantas casas for possível.",
       "imagem": "img/xadrez/bispo.jfif"
     },
     {
       "nome": "Rainhas",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "descricao": "Uma rainha tem os movimentos unificados de uma torre e de um bispo, é considerada a peça mais forte em uma partida.",
       "imagem": "img/xadrez/rainhas.jfif"
     },
     {
       "nome": "Reis",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "descricao": "O rei possui os mesmos movimento que a rainha, mas somente pode locomover-se uma casa por turno.",
       "imagem": "img/xadrez/reis.jfif"
-    },
-    {
-      "nome": "Peças",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
-      "imagem": "img/monopoly_tabuleiro.jpg"
-    },
-    {
-      "nome": "Idade Média",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
-      "imagem": "img/monopoly_tabuleiro.jpg"
-    },
-    {
-      "nome": "Renascimento-Modernidade",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
-      "imagem": "img/monopoly_tabuleiro.jpg"
-    },
-    {
-      "nome": "Contemporaneidade",
-      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
-      "imagem": "img/monopoly_tabuleiro.jpg"
     }
   ]
 }
