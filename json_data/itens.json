@@ -25,5 +25,50 @@
       "descricao": "Dois dados usados para determinar o número de espaços que um jogador se move.",
       "imagem": "img/monopoly_dados.jpg"
     }
+  ],
+  "xadrez":[
+    {
+      "nome": "Origens",
+      "descricao": "Não existe uma origem certa para o Xadrez, sua origem mais provavel foi no século VI d.c. na  ",
+      "imagem": [
+        "img/xadrez/chaturaji2.png",
+        "img/xadrez/Chaturaji1.jpg"
+      ]
+    },
+    {
+      "nome": "Peças e Regras",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/xadrez4.png"
+    },
+    {
+      "nome": "Peões",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/peão.jfif"
+    },
+    {
+      "nome": "Torres",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/torre1.jfif"
+    },
+    {
+      "nome": "Cavalos",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/cavalo.jfif"
+    },
+    {
+      "nome": "Bispos",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/bispo.jfif"
+    },
+    {
+      "nome": "Rainhas",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/rainhas.jfif"
+    },
+    {
+      "nome": "Reis",
+      "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
+      "imagem": "img/xadrez/reis.jfif"
+    }
   ]
 }

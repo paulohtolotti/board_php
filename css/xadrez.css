@@ -1,0 +1,16 @@
+
+.xadrez{
+    display: flexbox;
+    text-align: center;
+}
+
+.img{
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.game-item{    
+    margin: 5%;
+}
