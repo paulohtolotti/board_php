@@ -1,14 +1,4 @@
 .game-item img, .jogos img {
     max-width: 20%;
 }
-.dama{
-    display: flexbox;
-    text-align: center;
-}
 
-.img{
-    padding: 10px;
-    top: 50%;
-    left: 50%;
-    
-}

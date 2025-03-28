@@ -10,21 +10,27 @@
 
 <body>
     <main>
-        <div class="xadrez">
+        <div class="dama">
             <h1>Dama</h1>
             <a href="itens.json" target="_blank">Ver arquivo JSON</a>
             <?php
-    $data = json_decode(file_get_contents('./json_data/dama.json'), true);
+            $data = json_decode(file_get_contents('./json_data/itens.json'), true);
 
-    foreach ($data['dama'] as $item) {
-        echo '<div class="game-item">';
-        echo '<h2>' . htmlspecialchars($item['nome']) . '</h2>';
-        echo '<img src="' . htmlspecialchars($item['imagem']) . '" alt="' . htmlspecialchars($item['nome']) . '">';
-        echo '<p>' . htmlspecialchars($item['descricao']) . '</p>';
-        echo '<a href="itens.json" target="_blank">Ver no JSON</a>';
-        echo '</div>';
-    }
-    ?>
+            foreach ($data['dama'] as $item) {
+                echo '<div class="game-item">';
+                echo '<h2>' . htmlspecialchars($item['nome']) . '</h2>';
+                if (is_array($item['imagem'])) {
+                    foreach ($item['imagem'] as $img) {
+                        echo '<img src="' . htmlspecialchars($img) . '"style="width: 300px; height: auto;" class="img"' . '">';
+                    }
+                } else {
+                    echo '<img src="' . htmlspecialchars($item['imagem']) . '"style="width: 300px; height: auto;" alt=""' . '">';
+                }
+                htmlspecialchars($item['nome']) . '">';
+                echo '<p>' . htmlspecialchars($item['descricao']) . '</p>';
+                echo '</div>';
+            }
+            ?>
         </div>
     </main>
 </body>

@@ -52,5 +52,47 @@
       "descricao": "O tabuleiro do jogo Monopoly onde os jogadores se movem para comprar propriedades.",
       "imagem": "img/monopoly_tabuleiro.jpg"
     }
+  ],
+  "dama": [
+    {
+      "nome": "Jogo de Damas",
+      "descricao": "Damas é um jogo de tabuleiro para dois jogadores.",
+      "imagem": "img/dama/duas_pessoas.jpg"
+    },
+    {
+      "nome": "Tabuleiro",
+      "descricao": "O tabuleiro é composto por 64 casas, alternando entre claras e escuras.",
+      "imagem": "img/dama/tamanho.jpg"
+    },
+    {
+      "nome": "Peças",
+      "descricao": "Cada jogador começa com 12 peças, posicionadas nas casas escuras.",
+      "imagem": "img/dama/pecas.jpg"
+    },
+    {
+      "nome": "Movimentos",
+      "descricao": "As peças movem-se diagonalmente, uma casa por vez.",
+      "imagem": "img/dama/movimento_peca.jpg"
+    },
+    {
+      "nome": "Captura",
+      "descricao": "Para capturar, uma peça salta sobre a do adversário e para na casa vazia após ela.",
+      "imagem": "img/dama/captura.jpg"
+    },
+    {
+      "nome": "Promoção",
+      "descricao": "Ao alcançar o lado oposto do tabuleiro, a peça é promovida a dama.",
+      "imagem": "img/dama/dama.jpg"
+    },
+    {
+      "nome": "Movimentos da Dama",
+      "descricao": "Damas podem mover-se várias casas em uma única linha diagonal.",
+      "imagem": "img/dama/movimento.jpg"
+    },
+    {
+      "nome": "Objetivo",
+      "descricao": "O jogo termina quando um jogador captura todas as peças do outro ou o impede de se mover.",
+      "imagem": "img/dama/tabuleiro.jpg"
+    }
   ]
 }
