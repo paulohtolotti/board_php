@@ -58,7 +58,7 @@
     {
       "nome": "Bispos",
       "descricao": "Os bispos podem se mover pelas diagonais de mesma cor quantas casas for possível.",
-      "imagem": "img/xadrez/bispo.jfif"
+      "imagem": "img/xadrez/bispo.JPG"
     },
     {
       "nome": "Rainhas",
