@@ -55,14 +55,13 @@ h1{
 .hero-img{
     border-radius: .75rem;
     height: 16rem;
-    width: 16rem;
+    width: 20rem;
     object-fit: cover;
-    transform: rotate(-1deg);
 }
 .game-img{
     border-radius: .75rem;
     height: 16rem;
-    width: 16rem;
+    width: 20rem;
     object-fit: cover;
 }
 .game-wrap{
