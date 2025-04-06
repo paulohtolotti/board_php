@@ -4,56 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Jogos de Tabuleiro</title>
 </head>
-
 <body>
+    <header>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="itensMonopoly.php">Monopoly</a></li>
+            <li><a href="xadrez.php">Xadrez</a></li>
+            <li><a href="dama.php">Dama</a></li>
+            <li><a href="novoBrinquedo.php">Adicionar brinquedo</a></li>
+            <li><a href="json_data/itens.json">Arquivo JSON</a></li>
+        </nav>
+    </header>
     <main>
-        <div class="jogos">
-            <h1>Jogos de Tabuleiro</h1>
-            <div class="monopoly">
+        <h1>Jogos de Tabuleiro</h1>
+        <div class="game-grid">
+            <div class="game-wrap">
                 <h2>Monopoly</h2>
-                <p>Monopoly é um jogo de tabuleiro clássico que envolve comprar,
+                <p class="hero-text">Monopoly é um jogo de tabuleiro clássico que envolve comprar,
                     negociar e desenvolver propriedades para acumular riqueza e levar os oponentes à falência.
-                    É ideal para reunir amigos e familiares em uma noite divertida!</p>
-                <img src="img/monopoly_capa.jpg" alt="Capa do Monopoly" style="max-width: 100%; height: auto;">
-                <div class="btn">
-                    <a href="itensMonopoly.php"
-                        style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Ver
-                        Itens do Jogo</a>
-                </div>
+                </p>
+                <p class="hero-text">
+                    É ideal para reunir amigos e familiares em uma noite.
+                </p> 
+                <img src="img/monopoly_capa.jpg" alt="Capa do jogo Monopoly" class="hero-img">
+                <p><a href="itensMonopoly.php" class="link-ref">Conheça os itens do jogo</a></p>
             </div>
-            <div class="xadrez">
+            <div class="game-wrap">
                 <h2>Xadrez</h2>
-                <p>O Xadrez é um jogo de diversas origens, regras e formatos, mas, o objetivo principal é a vitória de
-                    um único
-                    rei.</p>
+                <p class="hero-text">O Xadrez é um jogo de origens, regras e formatos, mas, o objetivo principal é a vitória de um único rei.</p>
                 <img src="img/xadrez/xadrez1.jpg"
-                    alt="Peças de xadrez posicionadas sobre um tabuleiro, no centro da imagem, há o rei branco derrubado"
-                    style="max-width: 100%; height: auto;">
-                <div class="btn">
-                    <a href="xadrez.php"
-                        style="display: inline-block; padding: 10px 20px; background-color: #000000; color: white; text-decoration: none; border-radius: 5px;">Ver
-                        Itens do Jogo</a>
-                </div>
+                    alt="Peças de xadrez posicionadas sobre um tabuleiro, no centro da imagem, há o rei branco derrubado" class="hero-img">
+                <p><a href="xadrez.php" class="link-ref">Conheça os itens do jogo</a></p>
             </div>
-            
-
-            <div class="dama">
-                <h2>dama</h2>
-                <p>O jogo de damas é um jogo de tabuleiro estratégico para dois jogadores, onde o objetivo é capturar todas as peças do adversário
-                     ou deixá-lo sem movimentos.<br> As peças movimentam-se diagonalmente e podem "comer" as peças inimigas ao pular sobre elas.</p>
-                <img src="img/dama/tabuleiro.jpg"
-                    alt="Peças de dama posicionadas sobre um tabuleiro."
-                    style="max-width: 20%; height: auto;">
-                <div class="btn">
-                    <a href="dama.php"
-                        style="display: inline-block; padding: 10px 20px; background-color: #000000; color: white; text-decoration: none; border-radius: 5px;">Ver
-                        Itens do Jogo</a>
-                </div>
+            <div class="game-wrap">
+                <h2>Damas</h2>
+                <p class="hero-text">O jogo de damas é um jogo de tabuleiro estratégico para dois jogadores, onde o objetivo é capturar todas as
+                    peças do adversário
+                    ou deixá-lo sem movimentos.As peças movimentam-se diagonalmente e podem "comer" as peças inimigas ao
+                    pular sobre elas.</p>
+                <img src="img/dama/tabuleiro.jpg" alt="Peças de dama posicionadas sobre um tabuleiro" class="hero-img">
+                <p><a href="dama.php" class="link-ref">Conheça os itens do jogo</a></p>
             </div>
         </div>
     </main>
+    <footer>
+        <p class="site-footer">Desenvolvido por: Artur Lombardi - Luis Paulo Andrade Silva  - Matheus Batista Gonçalves - Paulo Henrique Tolotti </p>
+       
+    </footer>
 </body>
 
 </html>
