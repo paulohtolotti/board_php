@@ -16,6 +16,7 @@
             <li><a href="#">Monopoly</a></li>
             <li><a href="xadrez.php">Xadrez</a></li>
             <li><a href="dama.php">Dama</a></li>
+            <li><a href="novoBrinquedo.php">Adicionar brinquedo</a></li>
             <li><a href="json_data/itens.json">Arquivo JSON</a></li>
         </nav>
     </header>

@@ -1,26 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-:root{
-    --background:#B89D7F;
+
+:root {
+    --background: #B89D7F;
     --words: #000;
     --background-header: linear-gradient(to bottom, #8B735B, #B89D7F);
-    --background-footer: linear-gradient(to bottom,#B89D7F, #8B735B);
-    --accent:  #3F6250;
+    --background-footer: linear-gradient(to bottom, #B89D7F, #8B735B);
+    --accent: #3F6250;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--words);
 }
-a:hover{
+
+a:hover {
     background-color: var(--accent);
     text-decoration: underline;
     border-radius: 5px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,68 +32,81 @@ nav{
     height: 2rem;
     border-bottom: 2px solid;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     background-image: var(--background-footer);
     font-size: 18px;
 }
-li{
+
+li {
     display: inline-block;
     list-style: none;
     margin-right: 1.5rem;
     text-transform: uppercase;
     font-weight: 600;
 }
-body{
+
+body {
     background-color: var(--background);
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
 }
 
-h1{
+h1 {
     text-align: center;
 
 }
-.hero-img{
+
+.hero-img {
     border-radius: .75rem;
     height: 16rem;
     width: 20rem;
     object-fit: cover;
 }
-.game-img{
+
+.game-img {
     border-radius: .75rem;
     height: 16rem;
     width: 20rem;
     object-fit: cover;
 }
-.game-wrap{
+
+.game-wrap {
     margin-left: 0.55rem;
     margin-top: 0.5rem;
     overflow: auto;
     margin-bottom: 1rem;
     border-bottom: #000 solid 3px;
 }
-.game-grid{
+
+.game-grid {
     text-align: center;
 }
 
-.link-ref{
+.link-ref {
     background-color: #8B735B;
-    border:solid 2px black;
+    border: solid 2px black;
     border-radius: 20px;
     color: #000;
     margin-top: 0.35rem;
     font-weight: bold;
 }
-.hero-text{
+
+.hero-text {
     font-size: 1.15rem;
 }
-  .game-wrap::after {
+
+.game-wrap::after {
     content: "";
     display: block;
     height: 1px;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     margin-top: 1.5rem;
-  }
+}
+
+input{
+    display: block;
+}
